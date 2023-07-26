@@ -7,10 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
     <!-- simplyCountdown -->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css">
     <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="style.css">
   </head>
@@ -65,9 +69,83 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-8 text-end">
-                <h3>Moch. Refa Amirul</h3>
+                <h3>Moch. Refa Amirul Hamzah, S.Sos.</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex fuga ab debitis mollitia perspiciatis magni.</p>
                 <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+              </div>
+              <div class="col-4">
+                <img src="img/foto-refa-edited.jpg" width="300" alt="Refa Amirul" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/foto-refi.jpeg" width="280" alt="Refi Rabiatul" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Refi Rabiatul Adawiah, S.Psi.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex fuga ab debitis mollitia perspiciatis magni.</p>
+                <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Hotel Kubah 99 Kendari. <br> Jl. Martandu No. 99, Kambu, Kec. Poasia, Kota Kendari, Sulawesi Tenggara</p>
+            <a href="https://goo.gl/maps/v22qPQgjYvxJyHER8" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Kamis, 17 Agustus 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>19.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Kamis, 17 Agustus 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
               </div>
             </div>
           </div>
@@ -80,7 +158,7 @@
         simplyCountdown('.simply-countdown', {
             year: 2023, // required
             month: 8, // required
-            day: 14, // required
+            day: 17, // required
             hours: 9, // Default is 0 [0-23] integer
             words: { //words displayed into the countdown
                 days: { singular: 'hari', plural: 'hari' },
